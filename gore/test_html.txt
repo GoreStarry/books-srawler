@@ -1,0 +1,1072 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8">
+<title>博客來-目前您搜尋的關鍵字為:GQ 月號</title>
+<meta name="keywords" content='博客來,全館,GQ 月號'>
+<meta name="description" content='博客來搜尋,關鍵字:GQ 月號,分類:全館'>
+<meta content="no-cache" http-equiv="Pragma"/>
+<meta content="no-cache" http-equiv="Cache-Control"/>
+<meta http-equiv="expires" content="0">
+<link rel="stylesheet" type="text/css" href="http://search.books.com.tw/css/search_20100831/b960_24.css">
+<link rel="stylesheet" type="text/css" href="http://search.books.com.tw/css/search_20100831/min/reset_mod.css">
+<link rel="stylesheet" type="text/css" href="http://search.books.com.tw/css/search_20100831/mod/mod_skin.css">
+<link rel="stylesheet" type="text/css" href="http://search.books.com.tw/css/search_20100831/search.css?20161206">
+<link rel="canonical" href="http://search.books.com.tw/search/query/cat/all/key/GQ 月號">
+<script language="JavaScript" src="http://jci.book.com.tw/jss/jquery/jquery-1.4.2.min.js"></script>
+<script language="JavaScript" src="http://jci.book.com.tw/jss/books/jqueryplugin/lazyload/1.9.3/jquery.lazyload.min.js"></script>
+<script language="JavaScript" src="/exep/lib/js/jquery.placeholder.1.3.min.js"></script>
+<script language="JavaScript" src="/exep/lib/js/jquery.json.min.js"></script>
+<script type="text/javascript">
+        <!--
+            var act = '%2Fsearch%2Fquery%2Fcat%2F3%2Fqsub%2FR03%2Fkey%2FGQ+%E6%9C%88%E8%99%9F%2Fsort%2F5%2Fc%2F0';
+            $(document).ready(function(){
+                $.Placeholder.init();
+                $('a').bind('click', function(){ return true; });
+                $('#searchlist input:checkbox').click(function(){
+                    switch_li_bg(this);
+                });
+                $('input[name="C1"]').each(function(){
+                    switch_li_bg(this);
+                });
+                $("img:not(.scar)").not(".nolazyload_img img").lazyload({ 
+                    failurelimit: 10,
+                    placeholder : "/js/lib/white.png",
+                    effect : "fadeIn"
+                });
+                $.ajax({
+                    type: 'get',
+                    url: 'http://search.books.com.tw/search/weblog/',
+                    data: 'key=GQ+%E6%9C%88%E8%99%9F&cat=3&total=127&page=1&st=1488176872&reprodcnt=5',
+                    error: function(data) {},
+                    success: function(data) {}
+                });                
+            });
+            function switch_li_bg(elm){
+                var div = $(elm).parent().get(0);
+                var li = $(div).parent().get(0)
+                $(li).removeClass();
+                if(elm.checked){ $(li).addClass("item select");
+                }else{ $(li).addClass("item")}; 
+            }
+                        function item_putcart(){
+                var arr = new Array;
+                $('input[name="C1"]:checked').each(function(){
+                    arr.push(this.value);
+                });
+                if(arr.length > 0){ window.location = 'http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_cart/page/1/cart/1/pdf/1/item/'+arr.join(':');
+                }else{ alert("尚未選擇購買商品！")};  
+            }
+            function item_select(flag){
+                $('input[name="C1"]').attr('checked',flag ? 'checked' : '');
+                $(flag ? 'input[name="C1"]:checked' : 'input[name="C1"]').each(function(){
+                    var div = $(this).parent().get(0);
+                    var li = $(div).parent().get(0)
+                    $(li).removeClass();
+                    $(li).addClass(flag ? "item select" : "item");  
+                });
+            }
+            function changePage(elm){
+                var index = $(elm).val();
+                window.location = "/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/page/" + index + "/sort/5";
+            }
+            function changeView(elm){
+                window.location = "/search/query/cat/all/key/GQ+%E6%9C%88%E8%99%9F/v/1";
+            }
+            function collapse(elm, type){
+                window.location = "/search/query/cat/all/key/GQ+%E6%9C%88%E8%99%9F/c/" + type + "/sort/5";
+            }
+            function advancedSearch(elm) {
+                var advancedForm = $("#advancedsearch");
+                var rel = $(advancedForm).attr("rel");
+                var key = encodeURI($("input[id='key'][name='key']").val());
+                var catV = $("#query_type > option:selected").val();
+                var redirUrl = "/search/query/cat/" + catV + "/key/GQ+%E6%9C%88%E8%99%9F/sort/5";
+                var checked = $('#advancedsearch :checkbox').map(function() {
+					if($(this).attr('checked')) return $(this).attr('id')
+				}).get(); 
+				
+                                var adv_author = $('#adv_author').attr('checked');
+        		var adv_forsale = $('#adv_forsale').attr('checked');
+        		var adv_seven = $('#adv_seven').attr('checked');
+        		var adv_mnew = $('#adv_mnew').attr('checked');
+        		var adv_wnew = $('#adv_wnew').attr('checked');
+        		var adv_title = $('#adv_title').attr('checked');
+        		var adv_osstore = $('#adv_osstore').attr('checked');
+        		var adv_osstore_sg = $('#adv_osstore_sg').attr('checked');
+        		var adv_oshome = $('#adv_oshome').attr('checked');
+        		var adv_efree =$('#adv_efree').attr('checked');
+        		var adv_price_min=$('#adv_price_min').val();
+        		var adv_price_max=$('#adv_price_max').val();
+        		
+        		redirUrl+=segmentTrans('adv_author',adv_author)
+        		+segmentTrans('adv_forsale',adv_forsale)
+        		+segmentTrans('adv_seven',adv_seven)
+        		+segmentTrans('adv_mnew',adv_mnew)
+        		+segmentTrans('adv_wnew',adv_wnew)
+        		+segmentTrans('adv_title',adv_title)
+        		+segmentTrans('adv_osstore',adv_osstore)
+        		+segmentTrans('adv_osstore_sg',adv_osstore_sg)
+        		+segmentTrans('adv_oshome',adv_oshome)
+        		+segmentTrans('adv_efree',adv_efree)
+        		+segmentTrans('adv_price_min',adv_price_min)
+        		+segmentTrans('adv_price_max',adv_price_max);
+
+        		var price = [0, 0];
+                if($.trim(adv_price_min).length) price[0] = $.trim(adv_price_min);
+                if($.trim(adv_price_max).length) price[1] = $.trim(adv_price_max);
+				
+                var advancedList = {"checked": checked, "price": price, 
+                        "page": 1, 
+                        "cat": "3",
+                        "qsub": "R03",
+                        "sort": 5,
+                        "pcount": 7                }
+
+				$.ajax({
+					type: 'post',
+					url: 'http://search.books.com.tw/search/mining',
+					data: { area: rel, ref: act ,adlist: $.toJSON(advancedList)},
+					error: function(data) { window.location = redirUrl; },
+					success: function(data) { window.location = redirUrl }
+				});
+
+            }
+            
+            function segmentTrans(name , variable){
+    			
+				if (variable)
+				{
+					if('adv_price_min' == name || 'adv_price_max' == name ){
+						return "/"+name +"/"+variable;
+					}else{
+						return "/"+name +"/"+1;
+					}
+				}else{
+					return '';
+				}
+				
+    		}
+    		
+            function reSearch(elm) {
+                var fm = 0, bfm = 1, val = [];
+                if($(elm).attr("id") == "fuzzySearch") fm = 1, bfm = 2;
+                $("input[name='userTerm[]']:checked").each(function(i){
+                    val[i] = $("label[for='" + $(this).attr('id') + "']").text();
+                });
+                if($.trim($("#customSearchText").val()) != '' && $.trim($("#customSearchText").val()) != "請輸入其它關鍵字") { val.push($.trim($("#customSearchText").val()))};
+                if(val.length > 0) {window.location = '/search/query/fm/' + fm + '/bfm/' + bfm + '/key/' + val.join(' ');
+                }else{ alert("請選擇關鍵字！") };
+            }
+        //-->
+        </script>
+</head>
+<body>
+    <script type="text/javascript" src="//www.books.com.tw/js/inc1024/header_inc_wel.js" charset="big5"></script>
+    <!--main container-->
+	<!--導覽 始-->
+	<div class="bc">
+		您的位置在：<a href="http://www.books.com.tw">首頁</a>                            	&gt;
+                                    <a ref="nav_click" href="/search/query/cat/all/key/GQ+%E6%9C%88%E8%99%9F">搜尋結果</a> 
+                                            	&gt;
+                                    <a ref="nav_click" href="/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F">雜誌</a> 
+                                            	&gt;
+                                    <a ref="nav_click" href="/search/query/cat/3/qsub/R03/key/GQ+%E6%9C%88%E8%99%9F">中文雜誌</a> 
+                             
+        </div>
+	<!--導覽 止-->
+	<div class="container_24 clearfix container_24bg">
+		<h1>博客來網路書店 搜尋結果</h1>
+		<div class="grid_20 push_4">
+			<!--全館最熱 始-->
+			<blockquote class="mod cntblqsearch01">
+				<p>全館最熱</p>
+				<ul class="blq01">
+                                        <li  class="first">
+                    <a rel="top_key" title="無印良品" href="/search/query/cat/all/key/%E7%84%A1%E5%8D%B0%E8%89%AF%E5%93%81">無印良品</a></li>
+                                        <li >
+                    <a rel="top_key" title="星巴克" href="/search/query/cat/all/key/%E6%98%9F%E5%B7%B4%E5%85%8B">星巴克</a></li>
+                                        <li >
+                    <a rel="top_key" title="刀劍神域" href="/search/query/cat/all/key/%E5%88%80%E5%8A%8D%E7%A5%9E%E5%9F%9F">刀劍神域</a></li>
+                                        <li >
+                    <a rel="top_key" title="筆袋" href="/search/query/cat/all/key/%E7%AD%86%E8%A2%8B">筆袋</a></li>
+                                        <li >
+                    <a rel="top_key" title="韓國 Aritaum" href="/search/query/cat/all/key/%E9%9F%93%E5%9C%8B+Aritaum">韓國 Aritaum</a></li>
+                                        <li >
+                    <a rel="top_key" title="星巴克 櫻花" href="/search/query/cat/all/key/%E6%98%9F%E5%B7%B4%E5%85%8B+%E6%AB%BB%E8%8A%B1">星巴克 櫻花</a></li>
+                                        <li >
+                    <a rel="top_key" title="東野圭吾" href="/search/query/cat/all/key/%E6%9D%B1%E9%87%8E%E5%9C%AD%E5%90%BE">東野圭吾</a></li>
+                                        <li >
+                    <a rel="top_key" title="鋼筆" href="/search/query/cat/all/key/%E9%8B%BC%E7%AD%86">鋼筆</a></li>
+                                        <li >
+                    <a rel="top_key" title="五月天" href="/search/query/cat/all/key/%E4%BA%94%E6%9C%88%E5%A4%A9">五月天</a></li>
+                                        <li >
+                    <a rel="top_key" title="村上春樹" href="/search/query/cat/all/key/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9">村上春樹</a></li>
+                                    </ul>
+			</blockquote>
+			<!--全館最熱 止-->
+			<!--您是不是想找 始-->
+			    
+	        <!--您是不是想找 止-->
+						<!--搜尋結果排序及顯示模式 始-->
+			<div class="mod">
+				<div class="cntlisearch07 clearfix">
+                                    <div class="list">
+						<p>顯示模式</p>
+						<ul>
+							<!--下方li中:非該模式按鈕的a, class為nohere標簽-->
+							<li class="pandt" title="圖+文模式"><span>圖文模式</span></li>
+							<li class="pic" title="圖片模式"><a class="nohere" href='#' onclick='changeView(this)'><span>圖片模式</span></a></li>
+						</ul>
+						<div class="sort">
+							<form name="form1" method="post">
+								排序依 <select name="select" size="1" onchange="window.location=this.value;">
+																		<option value="/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/1" >準確度</option>
+									<option value="/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/5" selected>上市日期(新→舊)</option>
+									<option value="/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/6" >上市日期(舊→新)</option>
+									<option value="/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/7" >優惠價(高→低)</option>
+									<option value="/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/8" >優惠價(低→高)</option>
+									<option value="/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/9" >暢銷度</option>
+								</select>
+							</form>
+						</div>
+					</div>
+					<ul class="about">
+						<li>查詢關鍵字 <span>GQ 月號</span></li>
+						<li>搜尋結果共 <span>127</span> 筆，頁數 <strong>1</strong> / 7</li>
+                </ul>
+				</div>
+				<!--這是當在新上市商品結果頁時沒下拉選單 始-->
+				<div class="cntlisearch07 clearfix" style="display: none;">
+					<div class="list">
+						<p>顯示模式</p>
+						<ul>
+							<li class="pandt"><span>圖文模式</span></li>
+							<li class="pic"><a class="nohere" href="#"><span>圖片模式</span></a></li>
+						</ul>
+					</div>
+
+					<ul class="about">
+						<li><strong>外文書</strong> 之新發行商品</li>
+						<li>搜尋結果共 <span>2400</span> 筆，頁數 <strong>1</strong> / 2
+						</li>
+					</ul>
+				</div>
+				<!--這是當在新上市商品結果頁時沒下拉選單 止-->
+			</div>
+			<!--搜尋結果排序及顯示模式 止-->
+
+			<!--搜尋結果商品 始-->
+			<div class="mod">
+				<div class="cntlisearch08">
+					<form class="result" id="searchlist">
+						<ul class="searchbook">
+                    		                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030064737/page/1/idx/1/cat/R03/pdf/0"
+								   title="GQ 3月號/2017 第246期">
+								   <img class="itemcov"
+										alt="GQ 3月號/2017 第246期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/006/47/R030064737.jpg&w=85&h=120&v=58afe108"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030064737/page/1/idx/1/cat/R03/pdf/0"
+									   title="GQ 3月號/2017 第246期">
+											<em>GQ</em> 3<em>月</em><em>號</em>/2017 第246期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        	，  
+				                            <a rel="go_author"
+											   href="http://search.books.com.tw/search/query/cat/3/key/%E8%8E%AB%E5%85%81%E9%9B%AF/adv_author/1/"
+											   title="莫允雯">莫允雯</a>
+	                            		                        		                       			                         
+	                            	                                	，出版日期：2017-03-06<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>男人要有樣子 閱讀<em>GQ</em> 打造您的男人味 瀟灑雜誌每期邀請頂尖的時尚大師，為您量身訂做時尚衣著專輯，幫您創造出品味卓然出眾的優雅魅力；同時為您邀來絕色美女，以其曼妙曲線挑逗您的視網膜，讓您的生活高潮迭起；<em>GQ</em>更提供了包括旅遊、飲食、美酒...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030064737/page/1/idx/1/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030068618/page/1/idx/2/cat/R03/pdf/0"
+								   title="GQ 3月號/2017 第246期 超值版">
+								   <img class="itemcov"
+										alt="GQ 3月號/2017 第246期 超值版"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/006/86/R030068618.jpg&w=85&h=120&v=58afe108"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030068618/page/1/idx/2/cat/R03/pdf/0"
+									   title="GQ 3月號/2017 第246期 超值版">
+											<em>GQ</em> 3<em>月</em><em>號</em>/2017 第246期 超值版									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        	，  
+				                            <a rel="go_author"
+											   href="http://search.books.com.tw/search/query/cat/3/key/%E8%8E%AB%E5%85%81%E9%9B%AF/adv_author/1/"
+											   title="莫允雯">莫允雯</a>
+	                            		                        		                       			                         
+	                            	                                	，出版日期：2017-03-03<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>284</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>男人要有樣子 閱讀<em>GQ</em> 打造您的男人味 瀟灑雜誌每期邀請頂尖的時尚大師，為您量身訂做時尚衣著專輯，幫您創造出品味卓然出眾的優雅魅力；同時為您邀來絕色美女，以其曼妙曲線挑逗您的視網膜，讓您的生活高潮迭起；<em>GQ</em>更提供了包括旅遊、飲食、美酒...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030068618/page/1/idx/2/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030064736/page/1/idx/3/cat/R03/pdf/0"
+								   title="GQ 2月號/2017 第245期">
+								   <img class="itemcov"
+										alt="GQ 2月號/2017 第245期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/006/47/R030064736.jpg&w=85&h=120&v=5887108e"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030064736/page/1/idx/3/cat/R03/pdf/0"
+									   title="GQ 2月號/2017 第245期">
+											<em>GQ</em> 2<em>月</em><em>號</em>/2017 第245期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2017-02-03<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>男人要有樣子 閱讀<em>GQ</em> 打造您的男人味 瀟灑雜誌每期邀請頂尖的時尚大師，為您量身訂做時尚衣著專輯，幫您創造出品味卓然出眾的優雅魅力；同時為您邀來絕色美女，以其曼妙曲線挑逗您的視網膜，讓您的生活高潮迭起；<em>GQ</em>更提供了包括旅遊、飲食、美酒...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030064736/page/1/idx/3/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030068531/page/1/idx/4/cat/R03/pdf/0"
+								   title="GQ 2月號/2017 第245期 黑白版">
+								   <img class="itemcov"
+										alt="GQ 2月號/2017 第245期 黑白版"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/006/85/R030068531.jpg&w=85&h=120&v=5887108e"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030068531/page/1/idx/4/cat/R03/pdf/0"
+									   title="GQ 2月號/2017 第245期 黑白版">
+											<em>GQ</em> 2<em>月</em><em>號</em>/2017 第245期 黑白版									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2017-02-03<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>男人要有樣子 閱讀<em>GQ</em> 打造您的男人味 瀟灑雜誌每期邀請頂尖的時尚大師，為您量身訂做時尚衣著專輯，幫您創造出品味卓然出眾的優雅魅力；同時為您邀來絕色美女，以其曼妙曲線挑逗您的視網膜，讓您的生活高潮迭起；<em>GQ</em>更提供了包括旅遊、飲食、美酒...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030068531/page/1/idx/4/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<div class="input_buy">
+									<input type="checkbox" value="R030064735" name="C1" />
+								</div>	                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030064735/page/1/idx/5/cat/R03/pdf/1"
+								   title="GQ 1月號/2017 第244期">
+								   <img class="itemcov"
+										alt="GQ 1月號/2017 第244期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/006/47/R030064735.jpg&w=85&h=120&v=58660d03"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030064735/page/1/idx/5/cat/R03/pdf/1"
+									   title="GQ 1月號/2017 第244期">
+											<em>GQ</em> 1<em>月</em><em>號</em>/2017 第244期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        	，  
+				                            <a rel="go_author"
+											   href="http://search.books.com.tw/search/query/cat/3/key/%E6%A5%8A%E7%A5%90%E5%AF%A7%C3%97%E5%BC%B5%E5%AD%9D%E5%85%A8/adv_author/1/"
+											   title="楊祐寧×張孝全">楊祐寧×張孝全</a>
+	                            		                        		                       			                         
+	                            	                                	，出版日期：2017-01-02<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 9</b> 折，<b>180</b>元</strong>
+																		                        		<a rel="mid_cart"
+										   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_cart/item/R030064735/page/1/cart/1/idx/5/cat/R03/pdf/1">
+										   <img class="scar" src="http://search.books.com.tw/css/images/btn_car.gif" width="73" height="20" alt="放入購物車" /></a>
+									                        	                        	                        	                        </span>
+	                          
+	                            <p>男人要有樣子 閱讀<em>GQ</em> 打造您的男人味 瀟灑雜誌每期邀請頂尖的時尚大師，為您量身訂做時尚衣著專輯，幫您創造出品味卓然出眾的優雅魅力；同時為您邀來絕色美女，以其曼妙曲線挑逗您的視網膜，讓您的生活高潮迭起；<em>GQ</em>更提供了包括旅遊、飲食、美酒...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030064735/page/1/idx/5/cat/R03/pdf/1">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030059448/page/1/idx/6/cat/R03/pdf/0"
+								   title="GQ 12月號/2016 第243期">
+								   <img class="itemcov"
+										alt="GQ 12月號/2016 第243期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/94/R030059448.jpg&w=85&h=120&v=583e71e9"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030059448/page/1/idx/6/cat/R03/pdf/0"
+									   title="GQ 12月號/2016 第243期">
+											<em>GQ</em> 12<em>月</em><em>號</em>/2016 第243期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2016-12-05<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>男人要有樣子 閱讀<em>GQ</em> 打造您的男人味 瀟灑雜誌每期邀請頂尖的時尚大師，為您量身訂做時尚衣著專輯，幫您創造出品味卓然出眾的優雅魅力；同時為您邀來絕色美女，以其曼妙曲線挑逗您的視網膜，讓您的生活高潮迭起；<em>GQ</em>更提供了包括旅遊、飲食、美酒...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030059448/page/1/idx/6/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030059446/page/1/idx/7/cat/R03/pdf/0"
+								   title="GQ 10月號/2016 第241期 金城武">
+								   <img class="itemcov"
+										alt="GQ 10月號/2016 第241期 金城武"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/94/R030059446.jpg&w=85&h=120&v=57ee147b"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030059446/page/1/idx/7/cat/R03/pdf/0"
+									   title="GQ 10月號/2016 第241期 金城武">
+											<em>GQ</em> 10<em>月</em><em>號</em>/2016 第241期 金城武									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2016-10-05<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>男人要有樣子 閱讀<em>GQ</em> 打造您的男人味 瀟灑雜誌每期邀請頂尖的時尚大師，為您量身訂做時尚衣著專輯，幫您創造出品味卓然出眾的優雅魅力；同時為您邀來絕色美女，以其曼妙曲線挑逗您的視網膜，讓您的生活高潮迭起；<em>GQ</em>更提供了包括旅遊、飲食、美酒...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030059446/page/1/idx/7/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030064212/page/1/idx/8/cat/R03/pdf/0"
+								   title="GQ 10月號/2016 第241期 梁朝偉">
+								   <img class="itemcov"
+										alt="GQ 10月號/2016 第241期 梁朝偉"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/006/42/R030064212.jpg&w=85&h=120&v=57ee22a1"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030064212/page/1/idx/8/cat/R03/pdf/0"
+									   title="GQ 10月號/2016 第241期 梁朝偉">
+											<em>GQ</em> 10<em>月</em><em>號</em>/2016 第241期 梁朝偉									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        	，  
+				                            <a rel="go_author"
+											   href="http://search.books.com.tw/search/query/cat/3/key/%E6%A2%81%E6%9C%9D%E5%81%89/adv_author/1/"
+											   title="梁朝偉">梁朝偉</a>
+	                            		                        		                       			                         
+	                            	                                	，出版日期：2016-10-05<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>男人要有樣子 閱讀<em>GQ</em> 打造您的男人味 瀟灑雜誌每期邀請頂尖的時尚大師，為您量身訂做時尚衣著專輯，幫您創造出品味卓然出眾的優雅魅力；同時為您邀來絕色美女，以其曼妙曲線挑逗您的視網膜，讓您的生活高潮迭起；<em>GQ</em>更提供了包括旅遊、飲食、美酒...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030064212/page/1/idx/8/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030059445/page/1/idx/9/cat/R03/pdf/0"
+								   title="GQ 9月號/2016 第240期">
+								   <img class="itemcov"
+										alt="GQ 9月號/2016 第240期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/94/R030059445.jpg&w=85&h=120&v=57c7849a"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030059445/page/1/idx/9/cat/R03/pdf/0"
+									   title="GQ 9月號/2016 第240期">
+											<em>GQ</em> 9<em>月</em><em>號</em>/2016 第240期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2016-09-03<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>男人要有樣子 閱讀<em>GQ</em> 打造您的男人味 瀟灑雜誌每期邀請頂尖的時尚大師，為您量身訂做時尚衣著專輯，幫您創造出品味卓然出眾的優雅魅力；同時為您邀來絕色美女，以其曼妙曲線挑逗您的視網膜，讓您的生活高潮迭起；<em>GQ</em>更提供了包括旅遊、飲食、美酒...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030059445/page/1/idx/9/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030059443/page/1/idx/10/cat/R03/pdf/0"
+								   title="GQ 7月號/2016 第238期">
+								   <img class="itemcov"
+										alt="GQ 7月號/2016 第238期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/94/R030059443.jpg&w=85&h=120&v=57747618"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030059443/page/1/idx/10/cat/R03/pdf/0"
+									   title="GQ 7月號/2016 第238期">
+											<em>GQ</em> 7<em>月</em><em>號</em>/2016 第238期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        	，  
+				                            <a rel="go_author"
+											   href="http://search.books.com.tw/search/query/cat/3/key/%E5%91%A8%E6%9B%89%E6%B6%B5/adv_author/1/"
+											   title="周曉涵">周曉涵</a>
+	                            		                        		                       			                         
+	                            	                                	，出版日期：2016-07-01<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>男人要有樣子 閱讀<em>GQ</em> 打造您的男人味 瀟灑雜誌每期邀請頂尖的時尚大師，為您量身訂做時尚衣著專輯，幫您創造出品味卓然出眾的優雅魅力；同時為您邀來絕色美女，以其曼妙曲線挑逗您的視網膜，讓您的生活高潮迭起；<em>GQ</em>更提供了包括旅遊、飲食、美酒...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030059443/page/1/idx/10/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030063832/page/1/idx/11/cat/R03/pdf/0"
+								   title="GQ 7月號/2016 第238期 海報版">
+								   <img class="itemcov"
+										alt="GQ 7月號/2016 第238期 海報版"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/006/38/R030063832.jpg&w=85&h=120&v=5774842a"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030063832/page/1/idx/11/cat/R03/pdf/0"
+									   title="GQ 7月號/2016 第238期 海報版">
+											<em>GQ</em> 7<em>月</em><em>號</em>/2016 第238期 海報版									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        	，  
+				                            <a rel="go_author"
+											   href="http://search.books.com.tw/search/query/cat/3/key/%E5%91%A8%E6%9B%89%E6%B6%B5/adv_author/1/"
+											   title="周曉涵">周曉涵</a>
+	                            		                        		                       			                         
+	                            	                                	，出版日期：2016-07-01<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>男人要有樣子 閱讀<em>GQ</em> 打造您的男人味 瀟灑雜誌每期邀請頂尖的時尚大師，為您量身訂做時尚衣著專輯，幫您創造出品味卓然出眾的優雅魅力；同時為您邀來絕色美女，以其曼妙曲線挑逗您的視網膜，讓您的生活高潮迭起；<em>GQ</em>更提供了包括旅遊、飲食、美酒...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030063832/page/1/idx/11/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030063784/page/1/idx/12/cat/R03/pdf/0"
+								   title="@cooking愛料理享樂誌 7.8月號/2016第2期">
+								   <img class="itemcov"
+										alt="@cooking愛料理享樂誌 7.8月號/2016第2期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/006/37/R030063784.jpg&w=85&h=120&v=5770abc9"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030063784/page/1/idx/12/cat/R03/pdf/0"
+									   title="@cooking愛料理享樂誌 7.8月號/2016第2期">
+											@cooking愛料理享樂誌 7.8<em>月</em><em>號</em>/2016第2期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2016-06-27<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>122</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>料理」vs. 擁有Vogue、<em>GQ</em>的康泰納仕集團推出@cooking第二期，主題直接鎖定「#gathering」，邀來八位話題名人：型男主廚soac、明星夫妻檔李易與六月、時尚設計師chloe chen、甜美名媛王君怡、眷村菜大使林慧晶...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030063784/page/1/idx/12/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030059437/page/1/idx/13/cat/R03/pdf/0"
+								   title="GQ 1月號/2016 第232期">
+								   <img class="itemcov"
+										alt="GQ 1月號/2016 第232期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/94/R030059437.jpg&w=85&h=120&v=5680f309"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030059437/page/1/idx/13/cat/R03/pdf/0"
+									   title="GQ 1月號/2016 第232期">
+											<em>GQ</em> 1<em>月</em><em>號</em>/2016 第232期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2016-01-01<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>，穿得英挺俐落哪個男人不愛呢?我們找來奧斯卡影帝Daniel Day-Lewis之子Gabriel-Kane Day-Lewis展演本季軍裝時髦Look，不走老爸的電影路，卻在音樂界闖出名<em>號</em>，不變的是迷人的憂鬱男人味。   大男人有夢 <em>GQ</em>...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030059437/page/1/idx/13/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052361/page/1/idx/14/cat/R03/pdf/0"
+								   title="GQ 11月號/2015 第230期">
+								   <img class="itemcov"
+										alt="GQ 11月號/2015 第230期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/23/R030052361.jpg&w=85&h=120&v=56403d6c"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052361/page/1/idx/14/cat/R03/pdf/0"
+									   title="GQ 11月號/2015 第230期">
+											<em>GQ</em> 11<em>月</em><em>號</em>/2015 第230期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2015-11-07<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>這樣的性感尤物了。雖然已過不惑之年，卻一點都不減損她的性感，深入了解她之後，你更會被她的幽默和熱情所折服。  Story 當豐田先生遇見山本耀司 在<em>GQ</em>的牽線之下，Toyota執行長兼Lexus品牌長(CBO)豐田章男和時尚界呼風喚雨的「黑色...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030052361/page/1/idx/14/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052358/page/1/idx/15/cat/R03/pdf/0"
+								   title="GQ 8月號/2015 第227期">
+								   <img class="itemcov"
+										alt="GQ 8月號/2015 第227期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/23/R030052358.jpg&w=85&h=120&v=55b9c46f"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052358/page/1/idx/15/cat/R03/pdf/0"
+									   title="GQ 8月號/2015 第227期">
+											<em>GQ</em> 8<em>月</em><em>號</em>/2015 第227期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        	，  
+				                            <a rel="go_author"
+											   href="http://search.books.com.tw/search/query/cat/3/key/%E5%BD%AD%E4%BA%8E%E6%99%8F/adv_author/1/"
+											   title="彭于晏">彭于晏</a>
+	                            		                        		                       			                         
+	                            	                                	，出版日期：2015-08-01<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>152 Cover Story 彭于晏 通往好演員的天堂路 彭于晏上次登上《<em>GQ</em>》封面已經是2012年。短短4年，拍了十幾部電影，他早已躍升最耀眼的新生代男一，更是很多人心中的「男神」。雖然至今尚與獎項無緣，但他正通往好演員的路上，時機...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030052358/page/1/idx/15/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052357/page/1/idx/16/cat/R03/pdf/0"
+								   title="GQ 7月號/2015 第226期">
+								   <img class="itemcov"
+										alt="GQ 7月號/2015 第226期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/23/R030052357.jpg&w=85&h=120&v=5590c9cc"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052357/page/1/idx/16/cat/R03/pdf/0"
+									   title="GQ 7月號/2015 第226期">
+											<em>GQ</em> 7<em>月</em><em>號</em>/2015 第226期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        	，  
+				                            <a rel="go_author"
+											   href="http://search.books.com.tw/search/query/cat/3/key/%E9%87%91%E5%9F%8E%E6%AD%A6/adv_author/1/"
+											   title="金城武">金城武</a>
+	                            		                        		                       			                         
+	                            	                                	，出版日期：2015-07-01<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>金城武 我不習慣當明星  金城武的神祕在娛樂圈算是稀有，在網路時代更如鳳毛麟角。《<em>GQ</em>》此次和他在東京相遇，關於這個42歲大男孩的收放藝術，隨著時間過去，看得愈來愈明白。...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030052357/page/1/idx/16/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052355/page/1/idx/17/cat/R03/pdf/0"
+								   title="GQ 5月號/2015 第224期">
+								   <img class="itemcov"
+										alt="GQ 5月號/2015 第224期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/23/R030052355.jpg&w=85&h=120&v=5540968d"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052355/page/1/idx/17/cat/R03/pdf/0"
+									   title="GQ 5月號/2015 第224期">
+											<em>GQ</em> 5<em>月</em><em>號</em>/2015 第224期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2015-05-01<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>來源。  <em>GQ</em> Beauty Ann 吳思顏 青蘋果成熟的滋味 吳思顏(Ann)上一次登上《<em>GQ</em>》時，還是留著長髮的女子團成員之一。時隔5年，她美麗依舊、迷人依舊，電力暴增數十倍，電得拍攝現場的同事們幾乎招架不住。...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030052355/page/1/idx/17/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052354/page/1/idx/18/cat/R03/pdf/0"
+								   title="GQ 4月號/2015 第223期">
+								   <img class="itemcov"
+										alt="GQ 4月號/2015 第223期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/23/R030052354.jpg&w=85&h=120&v=551a4cff"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052354/page/1/idx/18/cat/R03/pdf/0"
+									   title="GQ 4月號/2015 第223期">
+											<em>GQ</em> 4<em>月</em><em>號</em>/2015 第223期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2015-04-01<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>Cover Story  郭書瑤 殘酷青春 女孩不回頭  2009年以「殺很大」紅遍全台的郭書瑤，2013年，靠著電影《志氣》拿下金馬獎最佳新演員。有人預言，郭書瑤是舒淇第二，而她那介於女孩與女人之間... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030052354/page/1/idx/18/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052353/page/1/idx/19/cat/R03/pdf/0"
+								   title="GQ 3月號/2015 第222期">
+								   <img class="itemcov"
+										alt="GQ 3月號/2015 第222期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/23/R030052353.jpg&w=85&h=120&v=54f4036e"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052353/page/1/idx/19/cat/R03/pdf/0"
+									   title="GQ 3月號/2015 第222期">
+											<em>GQ</em> 3<em>月</em><em>號</em>/2015 第222期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2015-03-01<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>170 Cover Story  當我們同穿一條褲 這不是《<em>GQ</em>》第一次拍攝「柯董」柯耀宗和兩個兒子柯家洋、柯震東，本次拍攝主題是「Dress By Age」，三人各有各的堅持及穿搭心法。聊起撼動演藝圈的大麻事件，父子們態度坦然，有問必答...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030052353/page/1/idx/19/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                    	                    	<li class="item">
+								<!--若無勾選選項時,可將下方input_buy的div整個拿掉-->
+	                        		                        	<a target="_blank" rel="mid_image"
+								   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052352/page/1/idx/20/cat/R03/pdf/0"
+								   title="GQ 2月號/2015 第221期">
+								   <img class="itemcov"
+										alt="GQ 2月號/2015 第221期"
+										data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/R03/005/23/R030052352.jpg&w=85&h=120&v=54cb08d1"
+										width="85"
+										height="120">
+								</a>
+								<h3>
+									<a target="_blank" rel="mid_name"
+									   href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid/item/R030052352/page/1/idx/20/cat/R03/pdf/0"
+									   title="GQ 2月號/2015 第221期">
+											<em>GQ</em> 2<em>月</em><em>號</em>/2015 第221期									</a>
+								</h3>
+								<span class="cat">中文雜誌</span>
+	                        		                       			                         
+	                            	                                	，出版日期：2015-02-01<br/>                         
+	                            	                        	                        <span class="price">
+	                        																優惠價：<strong><b> 95</b> 折，<b>190</b>元</strong>
+																	                        	                        	                        	                        </span>
+	                          
+	                            <p>攝影-Kenny Yang Fashion by Agn&egrave;s b.、Avalanche  162 Cover Story 林可彤 想跟你去吹吹風 林可彤上次登上《<em>GQ</em>》封面已是多年前，這段期間，她的戲劇作品從兩部累積到十多部，還出了...... <span><a target="_blank" rel="mid_more" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/mid_more/item/R030052352/page/1/idx/20/cat/R03/pdf/0">more</a></span>
+								</p>
+	                        	                    </li>
+                                    	</ul>
+				</form>
+				</div>
+			</div>
+			<!--搜尋結果商品 止-->
+			<!--商品下方按鈕如:此頁全選 始-->
+			<div class="mod">
+				<div class="cntlisearch09 clearfix">
+					<a class="btn_car" href="#" onclick="item_putcart();return false;"><span>放入購物車</span></a>
+					<a class="btn_can" href="#" onclick="item_select(false);return false;"><span>重新選擇</span></a> 
+					<a class="btn_all" href="#" onclick="item_select(true);return false;"><span>此頁全選</span></a>
+					            	</div>
+			</div>
+		<!--商品下方按鈕如:此頁全選 止-->
+		<!--頁數 始-->
+        			<div class="mod">
+				<div class="cntlisearch10">
+					<div class="page">
+						共 <span>7</span> 頁
+						<a class="prv" rel="change_page"
+							 href="#" onClick="return false;" >
+								上一頁
+						</a>
+																					<span class="here">1</span>
+																												<a rel="change_page" href="http://search.books.com.tw/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/5/page/2/v/0/">2</a>
+																												<a rel="change_page" href="http://search.books.com.tw/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/5/page/3/v/0/">3</a>
+																												<a rel="change_page" href="http://search.books.com.tw/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/5/page/4/v/0/">4</a>
+																												<a rel="change_page" href="http://search.books.com.tw/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/5/page/5/v/0/">5</a>
+																												<a rel="change_page" href="http://search.books.com.tw/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/5/page/6/v/0/">6</a>
+																												<a rel="change_page" href="http://search.books.com.tw/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/5/page/7/v/0/">7</a>
+																			<a class="nxt" rel="change_page"
+												   href="http://search.books.com.tw/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/qsub/R03/sort/5/page/2/v/0/"
+						>下一頁</a>
+					   跳到 <select name="select" id="page_select" onChange="changePage(this)">
+                                                    <option value="1"  selected >1</option>
+                                                    <option value="2" >2</option>
+                                                    <option value="3" >3</option>
+                                                    <option value="4" >4</option>
+                                                    <option value="5" >5</option>
+                                                    <option value="6" >6</option>
+                                                    <option value="7" >7</option>
+                        						</select> 頁
+					</div>
+				</div>
+			</div>
+        			<!--頁數 止-->
+			<!--查詢時間 始-->
+			<div class="cntlisearch11">
+            powered by 博客來 | 查詢時間： 0.1738 秒
+            </div>
+            <!--查詢時間 止-->
+						<!-- Also Key Product start -->	
+	        <div class="mod search-mod-01 clearfix">
+				<h3>推薦您可能感興趣的熱門商品</h3>
+            	<ul class="clearfix">
+                	                	 <li> 
+                    	<div>                 
+                        	<a target="_blank" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/recommender_product_image/item/0010647939/page/1/reprodidx/1/cat/001" rel="recommender_product_image"><img data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/001/064/79/0010647939.jpg&w=135&h=135&v=53fb116a" class="cover" src="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/001/064/79/0010647939.jpg&w=135&h=135&v=53fb116a" alt="蔣偉文的幸福廚記：72道超人氣家常料理，享受美味好食光" width="135" height="135"></a>
+	                       	<h4><a target="_blank" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/recommender_product_title/item/0010647939/page/1/reprodidx/1/cat/001" rel="recommender_product_title">蔣偉文的幸福廚記：72道超人氣家常料理，享受美味好食光</a></h4>
+                        	<span class="price">優惠價：<b>7</b>折<b>279</b>元</span>
+                    	</div>
+                	</li>
+                	                	 <li> 
+                    	<div>                 
+                        	<a target="_blank" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/recommender_product_image/item/0020180721/page/1/reprodidx/2/cat/002" rel="recommender_product_image"><img data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/002/018/07/0020180721.jpg&w=135&h=135&v=53f44091" class="cover" src="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/002/018/07/0020180721.jpg&w=135&h=135&v=53f44091" alt="929『迷宮人生』T / 黑XL" width="135" height="135"></a>
+	                       	<h4><a target="_blank" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/recommender_product_title/item/0020180721/page/1/reprodidx/2/cat/002" rel="recommender_product_title">929『迷宮人生』T / 黑XL</a></h4>
+                        	<span class="price">優惠價：&nbsp;&nbsp;&nbsp;<b>699</b>元</span>
+                    	</div>
+                	</li>
+                	                	 <li> 
+                    	<div>                 
+                        	<a target="_blank" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/recommender_product_image/item/N000702347/page/1/reprodidx/3/cat/N00" rel="recommender_product_image"><img data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/N00/070/23/N000702347.jpg&w=135&h=135&v=574f953d" class="cover" src="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/N00/070/23/N000702347.jpg&w=135&h=135&v=574f953d" alt="【法國Janod】互動式磁性世界動物地圖" width="135" height="135"></a>
+	                       	<h4><a target="_blank" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/recommender_product_title/item/N000702347/page/1/reprodidx/3/cat/N00" rel="recommender_product_title">【法國Janod】互動式磁性世界動物地圖</a></h4>
+                        	<span class="price">優惠價：<b>89</b>折<b>1202</b>元</span>
+                    	</div>
+                	</li>
+                	                	 <li> 
+                    	<div>                 
+                        	<a target="_blank" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/recommender_product_image/item/0020187830/page/1/reprodidx/4/cat/002" rel="recommender_product_image"><img data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/002/018/78/0020187830.jpg&w=135&h=135&v=55db0e4a" class="cover" src="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/002/018/78/0020187830.jpg&w=135&h=135&v=55db0e4a" alt="Aqua Timez / Aqua Timez十周年緋紅精選 (CD+DVD)" width="135" height="135"></a>
+	                       	<h4><a target="_blank" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/recommender_product_title/item/0020187830/page/1/reprodidx/4/cat/002" rel="recommender_product_title">Aqua Timez / Aqua Timez十周年緋紅精選 (CD+DVD)</a></h4>
+                        	<span class="price">優惠價：<b>85</b>折<b>407</b>元</span>
+                    	</div>
+                	</li>
+                	                	 <li> 
+                    	<div>                 
+                        	<a target="_blank" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/recommender_product_image/item/N000634183/page/1/reprodidx/5/cat/N00" rel="recommender_product_image"><img data-original="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/N00/063/41/N000634183.jpg&w=135&h=135&v=56275141" class="cover" src="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/N00/063/41/N000634183.jpg&w=135&h=135&v=56275141" alt="魔導少年Ⅱ 筆袋(粗拉鍊)A款(綜)" width="135" height="135"></a>
+	                       	<h4><a target="_blank" href="http://search.books.com.tw/redirect/move/key/GQ+%E6%9C%88%E8%99%9F/area/recommender_product_title/item/N000634183/page/1/reprodidx/5/cat/N00" rel="recommender_product_title">魔導少年Ⅱ 筆袋(粗拉鍊)A款(綜)</a></h4>
+                        	<span class="price">優惠價：&nbsp;&nbsp;&nbsp;<b>380</b>元</span>
+                    	</div>
+                	</li>
+                	            	</ul>    
+        	</div>
+			<!-- Also Key Product end -->
+					</div>
+		<!--left column-->
+		<div class="grid_4 pull_20">
+                <!--依分類瀏覽 始-->
+			<div class="mod mc003">
+				<b class="top"><b class="tl"></b><b class="tr"></b></b>
+				<div class="inner">
+					<div class="hd mhsearch02">
+						<h3>依分類瀏覽</h3>
+					</div>
+					<div class="bd">
+						<ul class="cntlisearch13">
+                                                    <li><span><a rel="tag_top_0"
+										 title="所有分類"
+										 href="http://search.books.com.tw/search/query/cat/all/c/0/key/GQ+%E6%9C%88%E8%99%9F/sort/5">所有商品</a><cite>(397)</cite></span></li>
+                                                <!--看所有分類-->
+                                                    <ul>
+                                                                                                                                <li><span class="">
+                                    	<a rel="tag_list_0"
+										   href="http://search.books.com.tw/search/query/cat/3/key/GQ+%E6%9C%88%E8%99%9F/sort/5/c/0"
+										   title="374">
+										   雜誌</a><cite>(374)</cite></span></li>
+                                                               <ul>
+                                                                                                                                                       <li><span class="here">中文雜誌 <cite>(127)</cite></span></li>
+                                                                                                                <ul>
+                                                                                                                                                                        <li><span>
+                                                <a href="http://search.books.com.tw/search/query/cat/3/qsub/R03/qqsub/06/key/GQ+%E6%9C%88%E8%99%9F/sort/5/c/0"
+												   title="文學史地" rel="subsub_list_0">
+												   文學史地</a><cite>(1)</cite></span></li>
+                                                                                                                                                                                                                                                            <li><span>
+                                                <a href="http://search.books.com.tw/search/query/cat/3/qsub/R03/qqsub/08/key/GQ+%E6%9C%88%E8%99%9F/sort/5/c/0"
+												   title="男性風尚" rel="subsub_list_0">
+												   男性風尚</a><cite>(124)</cite></span></li>
+                                                                                                                                                                                                                                                            <li><span>
+                                                <a href="http://search.books.com.tw/search/query/cat/3/qsub/R03/qqsub/15/key/GQ+%E6%9C%88%E8%99%9F/sort/5/c/0"
+												   title="休閒嗜好" rel="subsub_list_0">
+												   休閒嗜好</a><cite>(1)</cite></span></li>
+                                                                                                                                                                                                                                                            <li><span>
+                                                <a href="http://search.books.com.tw/search/query/cat/3/qsub/R03/qqsub/16/key/GQ+%E6%9C%88%E8%99%9F/sort/5/c/0"
+												   title="家庭生活" rel="subsub_list_0">
+												   家庭生活</a><cite>(1)</cite></span></li>
+                                                                                                                                                            </ul>
+                                                              </ul>
+                                                        </ul>
+                                                                    </ul>
+					</div>
+					<div class="ft"></div>
+				</div>
+				<b class="bottom"><b class="bl"></b><b class="br"></b></b>
+			</div>
+			<!--依分類瀏覽 止-->
+        <!--縮小搜尋結果 始-->
+                        <div class="mod mc003">
+				<b class="top"><b class="tl"></b><b class="tr"></b></b>
+				<div class="inner">
+					<div class="hd mhsearch02">
+						<h3>縮小搜尋範圍</h3>
+					</div>
+					<div class="bd">
+						<form class="cntlisearch14" id="advancedsearch" rel="advanced_s" method="GET" target="_self">
+							<!--可複選的表單-->
+							<label for="author">
+								<input type="checkbox" name="adv_author" id="adv_author"  />
+								作者/演唱/譯/編/繪
+							</label>
+							<label for="canbuy">
+								<input type="checkbox" name="adv_forsale" id="adv_forsale"  />
+								現在可購買商品
+							</label>
+							<label for="711">
+								<input type="checkbox" name="adv_seven" id="adv_seven"  />
+								可超商取貨
+							</label>
+							<label for="oversea_store">
+								<input type="checkbox" name="adv_osstore" id="adv_osstore"  >
+								可港澳店取
+							</label>
+							<label for="oversea_store_sg">
+								<input type="checkbox" name="adv_osstore_sg" id="adv_osstore_sg"  >
+								可新加坡店取
+							</label>							
+                            <label for="oversea_home">
+                            	<input type="checkbox" name="adv_oshome" id="adv_oshome"  >
+                            	可海外宅配
+                            </label>							
+							<label for="new_m">
+								<input type="checkbox" name="adv_mnew" id="adv_mnew"  />
+								一個月內上市新品
+							</label>
+							<label for="new_w">
+								<input type="checkbox" name="adv_wnew" id="adv_wnew"  />
+								本週上市新品
+							</label>
+							<label for="keywords">
+								<input type="checkbox" name="adv_title" id="adv_title"  />
+								名稱含此關鍵字
+							</label>
+															從<input class="level" id="adv_price_min" name="adv_price_min" type="text" size="2" maxlength="10"  />
+								到<input class="level" id="adv_price_max" name="adv_price_max" type="text" size="2" maxlength="10"  />元
+							<div class="sub">
+								<input class="btn_sel" type="button" value="篩選" onclick="advancedSearch(this)" />
+							</div>
+							<input type="hidden" id="hidden_advanced" name="hidden_advanced" value="hidden_advanced" />
+						</form>
+					</div>
+					<div class="ft"></div>
+				</div>
+				<b class="bottom"><b class="bl"></b><b class="br"></b></b>
+			</div>
+            <!--縮小搜尋結果 止-->
+			<!--最近查詢的關鍵字 始-->
+            <!--最近查詢的關鍵字 止-->
+		</div>
+	</div>
+	<br/>
+    <script type="text/javascript" src="//www.books.com.tw/js/inc1024/footer_inc_wel.js" charset="big5"></script>
+    </body>
+	<script>
+        $(document).ready(function() {
+            $("form[name='search']").attr('action','http://search.books.com.tw/search/query'); 
+                        $("input[id='key'][name='key']").val("GQ 月號");
+                        
+            	var catList = ["BKA", "AVA", "MGA", "TKA", "DPA"];
+//             	var catList = ["BKA", "AVA", "MGA", "TKA", "DPA", "EBA"];
+                
+                var catV = "undefined";
+                if("all" != "3") {
+                    catV = catList[3 - 1];
+                }
+                if(typeof(catV) != "undefined") {
+                    $("#query_type").children().each(function() {
+                        if($(this).val() == catV)
+                            $(this).attr("selected", "true");
+                    });
+                }
+                              
+        });
+    </script>
+</html>
