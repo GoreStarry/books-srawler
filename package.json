@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/GoreStarry/books-srawler/issues"
   },
-  "homepage": "https://github.com/GoreStarry/books-srawler#readme"
+  "homepage": "https://github.com/GoreStarry/books-srawler#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "cheerio": "^0.22.0"
+  }
 }
