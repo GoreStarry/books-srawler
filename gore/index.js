@@ -18,6 +18,23 @@ parseHtml(test_html);
 
 function parseHtml(html) {
   $ = cheerio.load(html);
-  const all_title = $('.item h3').text();
-  console.log(all_title);
+  const all_title = $('.item:first-of-type h4');
+  console.log(all_title.attr());
 }
+
+var json2xls = require('json2xls');
+var json = [{
+  foo: 'bar',
+  qux: 'moo',
+  poo: 123,
+  stux: new Date()
+}, {
+  foo: 'bar',
+  qux: 'moo',
+  poo: 123,
+  stux: new Date()
+}]
+
+var xls = json2xls(json);
+
+fs.writeFileSync('data.xlsx', xls, 'binary');
