@@ -1,0 +1,35 @@
+<script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+<script>
+  // Initialize Firebase
+	var config = {
+    apiKey: "AIzaSyBdPC3C3k7X7MVyQzUIa8PPSy2YkdiWA18",
+    authDomain: "books-afdf5.firebaseapp.com",
+    databaseURL: "https://books-afdf5.firebaseio.com",
+    storageBucket: "books-afdf5.appspot.com",
+    messagingSenderId: "1099302714748"
+  };
+  firebase.initializeApp(config);
+  var database = firebase.database();
+  console.log(database);
+	// function writeUserData(userId, name, email, imageUrl) {
+	function login(){
+		var email = 'chienfuchen33@gmail.com';
+		var password = '12345678';
+		// firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+		firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+		// Handle Errors here.
+		var errorCode = error.code;
+		var errorMessage = error.message;
+		// ...
+		});
+	}
+	function writeUserData() {
+		firebase.database().ref('users/test').set({
+				username: 'chien-fu chen',
+				email: 'test@gmail.com',
+				profile_picture : ''
+		});
+	}
+</script>
+<button onclick="login()">login</button>
+<button onclick="writeUserData()">writeUserData</button>
